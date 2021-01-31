@@ -1,4 +1,5 @@
 Info 201 Final Assignment
+
 Project by: Amir Chambers, Leary Labanlic, and Jonathan Dwayne Tammen
 
 The topic that we were interested in is police brutality. With the 2020 protests that were caused by police brutaltiy on miniorites
