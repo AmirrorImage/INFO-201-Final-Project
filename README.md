@@ -6,7 +6,7 @@ The topic that we were interested in is police brutality. With the 2020 protests
 
 We found 3 (or more) data projects involved with police brutality:
 
-1. This [article] (https://www.nature.com/articles/d41586-020-01846-z) shows multiple data-driven charts that paint the picture of police brutality in the United States. It's a summaraization of a couple of topics that aims to see how police brutality specifically impacts black neighborhoods. 
+1. This [article](https://www.nature.com/articles/d41586-020-01846-z) shows multiple data-driven charts that paint the picture of police brutality in the United States. It's a summaraization of a couple of topics that aims to see how police brutality specifically impacts black neighborhoods. 
 
 2. A Medium blogger made a [post](https://towardsdatascience.com/exploratory-data-analysis-of-u-s-police-caused-fatalities-fce47a2b7198) called "U.S. Police-caused Fatalities"  that has a number of data science charts. These included charts on race, police caused police, fatalities over time, fatalities by state, poverty, mental health, as well as high school completion rate. 
 
@@ -18,7 +18,7 @@ We found 3 (or more) data projects involved with police brutality:
   - What states have the most police brutality incidents?  
   - What role does mental health play in police fatality? 
   - What is the outlook for polcice fatalities / brutality for the future? 
-  - What does the effect of demographic factors (like age, race, income, etc.) look like compared     to the diversity of the police work force?  
+  - What does the effect of demographic factors (like age, race, income, etc.) look like compared to the diversity of the police work force?  
 
 - Data on the total number of records of incidents by police officers of participating (https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj).
 - Data from the crowdsourced project at this link (https://github.com/2020PB/police-brutality), created to accumulate and contextualize evidence of police brutality during the 2020 George Floyd protests.
