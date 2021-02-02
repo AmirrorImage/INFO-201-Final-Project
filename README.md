@@ -22,7 +22,7 @@ The data-driven questions we hope to answer in this domain are:
 
 To help answer these data-driven questions, we found 3 datasets:
 
-1. [Data](https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj) on the total number of records of incidents by police officers.
+1. [Data](https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj)
   - We downloaded this dataset from the Seattle governments official website.
   - The City of Seattle collected this data which are records representing use of force by law enforcement officers of the Seattle Police Department.
   - 12,087 observations (rows)
@@ -34,7 +34,7 @@ How many observations (rows) are in your data?
 How many features (columns) are in the data?
 What questions (from above) can be answered using the data in this dataset?
 
-2. [Data](https://github.com/2020PB/police-brutality) from a crowdsourced project, created to accumulate and contextualize evidence of police brutality during the 2020 George Floyd protests.
+2. [Data](https://github.com/2020PB/police-brutality)
   - We downloaded the data from a github repository.
   - This data was collected from a crowdsourced project in which they recieved reports or found news links that tied together the incident.
   - 1933 observations (rows)
@@ -42,5 +42,10 @@ What questions (from above) can be answered using the data in this dataset?
   - This data helps answer the question on which state had the most police brutality incidents.
 
 3. [Data]()
+  - This data was downloaded from 
+  - This data was collected by 
+  - 5993 observations (rows)
+  - 
+  - This data helps answer 
   
   
