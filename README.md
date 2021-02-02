@@ -23,9 +23,3 @@ We found 3 (or more) data projects involved with police brutality:
   - What is the outlook for polcice fatalities / brutality for the future? 
   - What does the effect of demographic factors (like age, race, income, etc.) look like compared     to the diversity of the police work force?  
 
-Why are you interested in this field/domain?
-What other examples of data driven project have you found related to this domain (share at least 3)?
-What data-driven questions do you hope to answer about this domain (share at least 3)?
-
-- We are interested  in this domain because it is an intersect subject of 
-that heavily connects to public health and safety.  
