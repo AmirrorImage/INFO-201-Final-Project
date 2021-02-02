@@ -27,25 +27,20 @@ To help answer these data-driven questions, we found 3 datasets:
   - The City of Seattle collected this data which are records representing use of force by law enforcement officers of the Seattle Police Department.
   - 12,087 observations (rows)
   - 11 features (columns)
-  - This helps answer the questions about whether or not an increase of police brutality took place in 2020 vs other years.
-Where did you download the data (e.g., a web URL)?
-How was the data collected or generated? Make sure to explain who collected the data (not necessarily the same people that host the data), and who or what the data is about?
-How many observations (rows) are in your data?
-How many features (columns) are in the data?
-What questions (from above) can be answered using the data in this dataset?
+  - This helps answer the questions about whether or not an increase of police brutality took place in 2020 vs other years?
 
 2. [Data](https://github.com/2020PB/police-brutality)
   - We downloaded the data from a github repository.
   - This data was collected from a crowdsourced project in which they recieved reports or found news links that tied together the incident.
   - 1933 observations (rows)
   - 4 features (columns)
-  - This data helps answer the question on which state had the most police brutality incidents.
+  - This data helps answer the question on which state had the most police brutality incidents?
 
 3. [Data]()
   - This data was downloaded from 
   - This data was collected by 
-  - 5993 observations (rows)
-  - 
-  - This data helps answer 
+  - 5992 observations (rows)
+  - 16 features (columns)
+  - This data helps answer what role does mental health play in police fatality along with what demographic factors might affect related incidents?
   
   
