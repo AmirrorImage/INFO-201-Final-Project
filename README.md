@@ -21,9 +21,25 @@ The data-driven questions we hope to answer in this domain are:
   - What does the effect of demographic factors (like age, race, income, etc.) look like compared to the diversity of the police work force?  
 
 To help answer these data-driven questions, we found 3 datasets:
-  1. [Data](https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj) on the total number of records of incidents by police officers of participating.
-    - 
-  2.[Data](https://github.com/2020PB/police-brutality) from a crowdsourced project, created to accumulate and contextualize evidence of police brutality during the 2020 George Floyd protests.
-  3. [Data](link here)
+
+1. [Data](https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj) on the total number of records of incidents by police officers.
+  - We downloaded this dataset from the Seattle governments official website.
+  - These are records representing use of force by participating law enforcement officers of the Seattle Police Department.
+  - 12,087 observations (rows)
+  - 11 features (columns)
+  - This helps answer the questions about whether or not an increase of police brutality took place in 2020 vs other years
+Where did you download the data (e.g., a web URL)?
+How was the data collected or generated? Make sure to explain who collected the data (not necessarily the same people that host the data), and who or what the data is about?
+How many observations (rows) are in your data?
+How many features (columns) are in the data?
+What questions (from above) can be answered using the data in this dataset?
+
+2.[Data](https://github.com/2020PB/police-brutality) from a crowdsourced project, created to accumulate and contextualize evidence of police brutality during the 2020 George Floyd protests.
+  - We downloaded the data from a github repository
+  -  
+  - 
+  - 
+  -
+3. [Data](link here)
   
   
