@@ -22,23 +22,23 @@ The data-driven questions we hope to answer in this domain are:
 
 To help answer these data-driven questions, we found 3 datasets:
 
-1. [Data](https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj)
+1. Use of force dataset
   - We downloaded this dataset from the Seattle governments official website.
   - The City of Seattle collected this data which are records representing use of force by law enforcement officers of the Seattle Police Department.
   - 12,087 observations (rows)
   - 11 features (columns)
   - This helps answer the questions about whether or not an increase of police brutality took place in 2020 vs other years?
 
-2. [Data](https://github.com/2020PB/police-brutality)
+2. Police brutality dataset
   - We downloaded the data from a github repository.
   - This data was collected from a crowdsourced project in which they recieved reports or found news links that tied together the incident.
   - 1933 observations (rows)
   - 4 features (columns)
   - This data helps answer the question on which state had the most police brutality incidents?
 
-3. [Data]()
-  - This data was downloaded from 
-  - This data was collected by 
+3. Police shootings dataset
+  - This data was downloaded from a website called the police data initiative, but we took specifically from their shooting reports.
+  - This data was collected from participating police departments reporting their incidents to the organization.
   - 5992 observations (rows)
   - 16 features (columns)
   - This data helps answer what role does mental health play in police fatality along with what demographic factors might affect related incidents?
