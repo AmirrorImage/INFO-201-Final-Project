@@ -14,6 +14,8 @@ We found 3 (or more) data projects involved with police brutality:
 
  - Data on the total number of records of incidents by police officers of participating (https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj).
  - Data from the crowdsourced project at this link (https://github.com/2020PB/police-brutality), created to accumulate and contextualize evidence of police brutality during the 2020 George Floyd protests.
+ 
+ - 
 
  The data-driven questions we hope to answer in this domain are:
   - Was there an increase in police brutality in 2020 vs other years?
@@ -22,4 +24,19 @@ We found 3 (or more) data projects involved with police brutality:
   - What role does mental health play in police fatality? 
   - What is the outlook for polcice fatalities / brutality for the future? 
   - What does the effect of demographic factors (like age, race, income, etc.) look like compared     to the diversity of the police work force?  
+  
+  Found Data on police brutality / police falatality incidents
+  
+   1. Data on the total number of records of incidents by police officers of being involved in police brutality (https://data.seattle.gov/Public-Safety/Use-Of-Force/ppi5-g2bj).
+   
+   2. Data from the crowdsourced project at this link (https://github.com/2020PB/police-brutality), created to accumulate and contextualize evidence of police brutality during the 2020 George Floyd protests.
+   
+   3. Data found on data.world called "Fatal Police Shootings". Data was downloaded 
+   
+   
+   Where did you download the data (e.g., a web URL)?
+How was the data collected or generated? Make sure to explain who collected the data (not necessarily the same people that host the data), and who or what the data is about?
+How many observations (rows) are in your data?
+How many features (columns) are in the data?
+What questions (from above) can be answered using the data in this dataset?
 
