@@ -1,30 +1,64 @@
 ---
-title: "Index"
-author: "Jonathan, Amir, Leary"
-date: "2/19/2021"
+title: "Project Exploratory"
+author: "Jonathan"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+```{r include=F}
+source("Summary.R")
+source("Table.R")
+source("charts.R")
+library(tidyverse)
+library(knitr)
+library(kableExtra)
 ```
 
-## R Markdown
+This report is exploring Police Brutality in Seattle using data from this source: (
+http://www.seattle.gov/police-manual/title-8---use-of-force/8050---use-of-force-definitions).
+The overall goal is to expose and understand the scale and extent of Police Brutality in Washington
+State.
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+Starting my analysis, this dataset has  total reports, and
+ columns. Each row represents a report from a given day, and each column has a different meaning: ID is the identification of the case, Incident_Num is the key for the incident, Incident_Type represents the force that was used:
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+Level 1 = Type I, wherein the victim undergoes some kind of pain but not significant
+or fatal pain due to the force used.
 
-```{r cars}
-summary(cars)
+Level 2 = Type II, wherein the victim undergoes some significant pain or injury due to the force used.
+
+Level 3 = Type III, wherein the victim undergoes significant harm & or pain, often
+resulting in a loss of Consciousness, great bodily harm, or potentially death.
+
+Level 3 - OIS, Officer Involved Shooting.
+
+The other columns are pretty straightforward: 
+Occurred_date_time was when the incident occurred, Precinct is self explanatory, Sector and Beat are police terms for areas within a precinct and then the time and place of the incident within the precinct & sector.
+
+Moving onto some exploration of the data, I was interested in some basic facts first:
+Such as the gender of the victims with `r num_male` being male and `r num_female` being female. Next, I made two charts: One depicting the amount of people facing different levels of force seen below:
+
+```{r echo=F}
+chart1
+
 ```
 
-## Including Plots
+The trends from this chart are pretty clear, the vast majority of instances where police use force
+are not labeled as Fatal or Officer shootings (level 3 & OIS), but there are a disturbing amount of Level 2 cases - it appears roughly half of all total, as a matter of fact. Next, I made a Chart showing the breakdown of each use of force on people by ethnicity:
 
-You can also embed plots, for example:
+```{r echo=F}
+chart2
 
-```{r pressure, echo=FALSE}
-plot(pressure)
+```
+I was also interested in how many cases had an ethnicity as "unknown", which turns out to be `r race_unspecified` people.
+
+Lastly, I made a chart showing incidents by sector - I used a lolipop format for this one to be more visually interesting, and to understand the frequency a bit better.
+
+```{r echo=F}
+chart3
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+While I was exploring this dataset, I was also curious how many police officers were involved from the start of the data on `r date_earliest` to the last date `r most_recent` and found that `r off_num` were involved, with `r rep_off` having more than 1 incident. I also made a table of aggregated table showing the top 10 officers with there total incident counts and ID seen below:
+
+```{r echo=F}
+top_10_officers
+```
